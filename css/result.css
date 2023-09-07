@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    height: 45px;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.result__container{
+    margin-top: 20px;
+    padding: 2rem;
+     border:  1px solid black;
+     width: 600px;
+     text-align: center;
+}
+
+.result__container > h3{
+    font-size: 2rem;
+    color: darkred;
+    font-weight: bold;
+}
+
+
+
+.result__container > div{
+    font-size: 1.5rem;    
+}
+
+span{
+    font-weight: bold;
+}
+
+#correct{
+    color: green;
+}
+
+#wrong{
+    color: red;
+}
+
+#score{
+    font-size: 1.8rem;
+    color: blue;
+}

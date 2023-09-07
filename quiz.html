@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Quizz App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/quiz.css">
+    </head>
+    <body>
+        <main>
+            <!-- Quiz Page -->
+            <section>
+                <div class="quiz__container">
+                    <div class="category__title">
+                        <h3 id="category"></h3>
+                    </div>
+                    <div class="quiz__subtitle">
+                        <div class="timer__btn">
+                            <span id="timer" class="timer"></span>
+                        </div>
+                        <div>
+                            Score :
+                            <span id="score"></span>
+                        </div>
+                    </div>
+                    <div class="question__container">
+                        <div id="question" class="question"></div>
+                        <div class="question__no">
+                            <span id="questionNo"></span> / <span id="totalQuestion"></span>
+                        </div>
+                    </div>
+                    <div id="option" class="option__list">
+                    </div>
+                    <div id="btn">
+                        <button id="nextBtn" class="button" onclick="handleAnswer()">Next Question</button>
+                    </div>
+                </div>
+                
+            </section>
+            <!--  -->
+        </main>
+        <script src="/js/question.js" async defer></script>
+        <script src="/js/quiz.js" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Quizz App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/result.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <div class="result__container">
+                    <h3>Quiz Result</h3>
+                    <div>
+                        <p><span id="username"></span>, your result is: <span id="score"></span> </p>
+                        <p>Total Time Taken : <span id="timeTaken"></span> seconds</p>
+                        <p>Total Question : <span id="total"></span></p>
+                        <p>Attempt : <span id="attempted"></span></p>
+                        <p>Correct : <span id="correct"></span></p>
+                        <p>Wrong : <span id="wrong"></span></p>
+                        <p>Percentage : <span id="percentage"></span>%</p>
+                    </div>
+                    <div>
+                        <button id="startBtn" onclick="handleStartAgain()">Start Again</button>
+                        <button id="homeBtn" onclick="handleHomeBtn()">Go To Home</button>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+        </main>
+        
+        <script src="/js/result.js" async defer></script>
+    </body>
+</html>

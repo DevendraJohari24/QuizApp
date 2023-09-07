@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Quizz App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <main>
+            <!-- Home Page -->
+            <section>
+                <div class="container">
+                    <div class="logo">
+                        <img src="https://images.softwaresuggest.com/software_logo/1504588291_testbook-logo.png" alt="" />
+                        <h1>Hello <span id="user">User!</span></h1>
+                    </div>
+                   <div class="name__container">
+                        <h3>Enter your name to continue the Quiz.</h3>
+                        <div>
+                            <input type="text" id="username" placeholder="Enter your name" required />
+                            <button id="submitBtn" onclick="handleSubmitName()">Enter</button>
+                        </div>
+                        <h4>You'll have 10 seconds to answer each questions.</h4>
+                   </div>
+                   <div class="category__container">
+                    <h2>Select Category</h2>
+                    <div id="category" class="category__list">          
+                    </div>
+                </div>
+                </div>
+
+            </section>
+            <!--  -->
+        </main>
+        
+        <script src="/js/main.js" async defer></script>
+    </body>
+</html>
